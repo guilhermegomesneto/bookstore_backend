@@ -423,7 +423,7 @@ const books = [
     id: 43,
     title: "The Odyssey",
     author: "Homer",
-    genre: "Epic",
+    genre: "Fiction",
     desc: "An ancient Greek epic that follows Odysseus’ arduous journey home after the Trojan War, filled with gods, monsters, and heroic feats, exploring the themes of fate, perseverance, and the desire for homecoming.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
