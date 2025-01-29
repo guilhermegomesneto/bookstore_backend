@@ -27,6 +27,31 @@ app.get("/books/:id", (req, res) => {
   res.status(200).json(books[index]);
 });
 
+app.get("/search", (req, res) => {
+  const { _page = 1, _limit = 8, title } = req.query;
+
+  const page = Number(_page);
+  const limit = Number(_limit);
+
+  let filteredBooks = books;
+  if (title) {
+    filteredBooks = books.filter((book) =>
+      book.title.toLowerCase().includes(title.toLowerCase())
+    );
+  }
+
+  const totalBooks = filteredBooks.length;
+  const startIndex = (page - 1) * limit;
+  const endIndex = page * limit;
+  const paginatedBooks = filteredBooks.slice(startIndex, endIndex);
+
+  res.status(200).json({
+    books: paginatedBooks,
+    totalBooks,
+  });
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
