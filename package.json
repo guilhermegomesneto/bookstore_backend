@@ -1,0 +1,18 @@
+{
+  "name": "bookstore_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Guilherme Gomes Neto",
+  "license": "ISC",
+  "description": "Simple API with fake database for a marketplace website",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
