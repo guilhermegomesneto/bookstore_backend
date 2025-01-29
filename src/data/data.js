@@ -7,6 +7,7 @@ const books = [
     desc: "A classic treatise on military strategy.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 19.99,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const books = [
     desc: "A critique of the American Dream in the 1920s.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const books = [
     desc: "A comprehensive introduction to the history of art.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 29.99,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const books = [
     desc: "The diary of Anne Frank during World War II.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 12.99,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const books = [
     desc: "An exploration of the connections between mathematics, art, and music.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 24.99,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const books = [
     desc: "A fundamental work of Western philosophy on justice and politics.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 9.99,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const books = [
     desc: "The story of the Wright brothers and the invention of the airplane.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 18.99,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const books = [
     desc: "Reflections on art and life by an American painter.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 21.99,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ const books = [
     desc: "A detailed history of the rise and fall of the Third Reich.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 25.99,
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ const books = [
     desc: "A manual on drawing techniques.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 15.99,
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ const books = [
     desc: "A narrative of the beginning of World War I.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 17.99,
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ const books = [
     desc: "The history of cryptography and its importance in mathematics.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 22.99,
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ const books = [
     desc: "A comprehensive narrative of the American Civil War.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 27.99,
   },
   {
     id: 14,
@@ -124,6 +137,7 @@ const books = [
     desc: "Reflections on the pursuit of happiness.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 16.99,
   },
   {
     id: 15,
@@ -133,6 +147,7 @@ const books = [
     desc: "A narrative of ancient history from the beginning of civilization.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 23.99,
   },
   {
     id: 16,
@@ -142,6 +157,7 @@ const books = [
     desc: "A guide on how to overcome creative blocks.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 13.99,
   },
   {
     id: 17,
@@ -151,6 +167,7 @@ const books = [
     desc: "The biography of Indian mathematician Srinivasa Ramanujan.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 19.99,
   },
   {
     id: 18,
@@ -160,6 +177,7 @@ const books = [
     desc: "Biographies of the great artists of the Renaissance.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 24.99,
   },
   {
     id: 19,
@@ -169,6 +187,7 @@ const books = [
     desc: "A new perspective on world history through the Silk Roads.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 26.99,
   },
   {
     id: 20,
@@ -178,6 +197,7 @@ const books = [
     desc: "Personal letters from the famous Dutch painter.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 18.99,
   },
   {
     id: 21,
@@ -187,6 +207,7 @@ const books = [
     desc: "A narrative of human history from the Stone Age to the modern era.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 21.99,
   },
   {
     id: 22,
@@ -196,6 +217,7 @@ const books = [
     desc: "An exploration of the two modes of human thinking: fast and slow.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 23,
@@ -205,6 +227,7 @@ const books = [
     desc: "A dystopia about a totalitarian future.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 12.99,
   },
   {
     id: 24,
@@ -214,6 +237,7 @@ const books = [
     desc: "A dystopia about a futuristic society controlled by technology and conditioning.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 13.99,
   },
   {
     id: 25,
@@ -223,6 +247,7 @@ const books = [
     desc: "A story about racism and injustice in the southern United States.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 15.99,
   },
   {
     id: 26,
@@ -232,6 +257,7 @@ const books = [
     desc: "The saga of Captain Ahab and his obsession with the white whale.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 17.99,
   },
   {
     id: 27,
@@ -241,6 +267,7 @@ const books = [
     desc: "The story of a young man who commits a murder and faces the moral consequences.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 16.99,
   },
   {
     id: 28,
@@ -250,6 +277,7 @@ const books = [
     desc: "A romance about the complexities of love and society.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 29,
@@ -259,6 +287,7 @@ const books = [
     desc: "An epic narrative about life in Russia during the Napoleonic Wars.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 19.99,
   },
   {
     id: 30,
@@ -268,6 +297,7 @@ const books = [
     desc: "The story of a rebellious teenager in New York.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 13.99,
   },
   {
     id: 31,
@@ -277,6 +307,7 @@ const books = [
     desc: "A philosophical and deeply emotional exploration of faith, doubt, and morality, centered around the lives of three brothers and their troubled relationship with their father, culminating in a murder mystery.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 22.99,
   },
   {
     id: 32,
@@ -286,6 +317,7 @@ const books = [
     desc: "A groundbreaking existential novel about Meursault, a man who is indifferent to society’s expectations and struggles with the absurdity of life and the meaning of human existence after a senseless act of violence.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 12.99,
   },
   {
     id: 33,
@@ -295,6 +327,7 @@ const books = [
     desc: "A poignant and simple story about an old fisherman’s epic struggle with a giant marlin, symbolizing the eternal battle between man and nature, and exploring themes of perseverance and human dignity.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 11.99,
   },
   {
     id: 34,
@@ -304,6 +337,7 @@ const books = [
     desc: "A dark and gripping tale about Dorian Gray, a man whose portrait ages while he remains eternally youthful, exploring themes of vanity, moral corruption, and the consequences of living a hedonistic life.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 35,
@@ -313,6 +347,7 @@ const books = [
     desc: "A whimsical adventure about Bilbo Baggins, an unlikely hero who embarks on a quest to reclaim a lost treasure, encountering trolls, elves, and dragons in a tale of bravery, friendship, and self-discovery.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 18.99,
   },
   {
     id: 36,
@@ -322,6 +357,7 @@ const books = [
     desc: "The first part of Tolkien's epic trilogy, following the journey of Frodo Baggins and his companions as they embark on a perilous quest to destroy the One Ring and defeat the Dark Lord Sauron.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 19.99,
   },
   {
     id: 37,
@@ -331,6 +367,7 @@ const books = [
     desc: "A fast-paced thriller involving symbologist Robert Langdon, who uncovers a hidden conspiracy tied to the works of Leonardo da Vinci, unraveling secrets that could change the course of history.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 15.99,
   },
   {
     id: 38,
@@ -340,6 +377,7 @@ const books = [
     desc: "A dystopian novel set in a future where children are forced to fight to the death in a televised competition, exploring themes of survival, resistance, and the corrupting influence of power.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 13.99,
   },
   {
     id: 39,
@@ -349,6 +387,7 @@ const books = [
     desc: "A philosophical novel that follows Santiago, a shepherd on a journey to discover his personal legend and the true meaning of happiness, exploring themes of destiny, dreams, and the interconnectedness of life.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 40,
@@ -358,6 +397,7 @@ const books = [
     desc: "A chilling psychological horror novel about a family who moves into an isolated hotel, where the father’s descent into madness endangers them all, driven by supernatural forces and the ghosts of the past.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 16.99,
   },
   {
     id: 41,
@@ -367,6 +407,7 @@ const books = [
     desc: "The gothic horror classic about Count Dracula, a vampire who moves to England to spread the undead curse, exploring themes of fear, sexuality, and the clash of cultures.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 11.99,
   },
   {
     id: 42,
@@ -376,6 +417,7 @@ const books = [
     desc: "A pioneering science fiction novel about Victor Frankenstein, whose quest to conquer death results in the creation of a monstrous being, exploring themes of ambition, isolation, and the dangers of unchecked scientific progress.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 12.99,
   },
   {
     id: 43,
@@ -385,6 +427,7 @@ const books = [
     desc: "An ancient Greek epic that follows Odysseus’ arduous journey home after the Trojan War, filled with gods, monsters, and heroic feats, exploring the themes of fate, perseverance, and the desire for homecoming.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 44,
@@ -394,6 +437,7 @@ const books = [
     desc: "An epic poem set during the Trojan War, focusing on the conflict between Achilles and Hector, and examining the complexities of war, heroism, and the human cost of conflict.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 14.99,
   },
   {
     id: 45,
@@ -403,6 +447,7 @@ const books = [
     desc: "A monumental work of Italian literature, depicting the journey of the soul through Hell, Purgatory, and Heaven, rich with philosophical and theological exploration of sin, redemption, and divine justice.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 19.99,
   },
   {
     id: 46,
@@ -412,6 +457,7 @@ const books = [
     desc: "A surreal story about Gregor Samsa, who wakes up one morning to find himself transformed into a giant insect, exploring themes of alienation, family dynamics, and the absurdity of modern life.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 12.99,
   },
   {
     id: 47,
@@ -421,6 +467,7 @@ const books = [
     desc: "A landmark work of magic realism, tracing the rise and fall of the Buendía family in the town of Macondo, exploring the intersection of history, memory, and the fantastical.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 18.99,
   },
   {
     id: 48,
@@ -430,6 +477,7 @@ const books = [
     desc: "A timeless classic that follows the adventures of Don Quixote, a man who believes himself to be a knight, exploring themes of idealism, reality, and the nature of human consciousness in an often absurd world.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 17.99,
   },
   {
     id: 49,
@@ -439,6 +487,7 @@ const books = [
     desc: "A novel about a group of expatriates living in the post-World War I era, capturing their disillusionment, searching for meaning in a fragmented world, and exploring themes of love, loss, and identity.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 15.99,
   },
   {
     id: 50,
@@ -448,6 +497,7 @@ const books = [
     desc: "A haunting and poetic post-apocalyptic novel about a father and son journeying through a desolate, burned-out world, examining survival, hope, and the unbreakable bond between parent and child.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
+    price: 16.99,
   },
 ];
 
