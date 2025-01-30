@@ -4,7 +4,7 @@ const books = [
     title: "The Art of War",
     author: "Sun Tzu",
     genre: "History",
-    desc: "A classic treatise on military strategy.",
+    desc: "A timeless military classic, this ancient text provides profound insights into strategy, leadership, and warfare. It focuses on the importance of adaptability, surprise, and careful planning, offering valuable lessons for both military commanders and anyone seeking to understand the dynamics of conflict and competition.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
@@ -14,7 +14,7 @@ const books = [
     title: "The Great Gatsby",
     author: "F. Scott Fitzgerald",
     genre: "Fiction",
-    desc: "A critique of the American Dream in the 1920s.",
+    desc: "A quintessential critique of the American Dream during the Jazz Age, 'The Great Gatsby' explores themes of wealth, class, and love through the tragic story of Jay Gatsby. Fitzgerald’s novel highlights the moral decay and disillusionment hidden behind the glittering surface of the roaring 1920s.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
@@ -24,7 +24,7 @@ const books = [
     title: "The Story of Art",
     author: "E.H. Gombrich",
     genre: "Arts",
-    desc: "A comprehensive introduction to the history of art.",
+    desc: "An authoritative and comprehensive introduction to the history of art, this book takes readers on a journey through the evolution of visual culture, from early cave paintings to modern masterpieces. Gombrich explores art’s historical context, the techniques used by artists, and the cultural forces that shaped their work.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 29.99,
@@ -34,7 +34,7 @@ const books = [
     title: "The Diary of a Young Girl",
     author: "Anne Frank",
     genre: "History",
-    desc: "The diary of Anne Frank during World War II.",
+    desc: "The poignant and powerful diary of Anne Frank, a Jewish girl hiding from the Nazis during World War II. Anne’s reflections offer a deeply personal perspective on the horrors of war, the loss of innocence, and the resilience of the human spirit amidst unimaginable adversity.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
@@ -44,7 +44,7 @@ const books = [
     title: "Gödel, Escher, Bach",
     author: "Douglas Hofstadter",
     genre: "Mathematics",
-    desc: "An exploration of the connections between mathematics, art, and music.",
+    desc: "A groundbreaking exploration of the deep connections between mathematics, art, and music, Hofstadter weaves together the works of logician Kurt Gödel, artist M.C. Escher, and composer Johann Sebastian Bach. This book explores self-reference, paradoxes, and the nature of human thought in an engaging and thought-provoking manner.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 24.99,
@@ -54,7 +54,7 @@ const books = [
     title: "The Republic",
     author: "Plato",
     genre: "Philosophy",
-    desc: "A fundamental work of Western philosophy on justice and politics.",
+    desc: "A foundational text in Western philosophy, 'The Republic' presents Plato’s vision of an ideal society, where justice prevails and individuals are assigned roles based on their abilities. Through dialogues between Socrates and various interlocutors, Plato examines the nature of justice, politics, and the pursuit of truth.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 9.99,
@@ -64,7 +64,7 @@ const books = [
     title: "The Wright Brothers",
     author: "David McCullough",
     genre: "History",
-    desc: "The story of the Wright brothers and the invention of the airplane.",
+    desc: "The incredible true story of Orville and Wilbur Wright, two bicycle mechanics who defied the odds to invent the airplane. McCullough tells their story in rich detail, exploring their persistence, ingenuity, and the personal and professional challenges they faced in their journey to change the world.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
@@ -74,7 +74,7 @@ const books = [
     title: "The Art Spirit",
     author: "Robert Henri",
     genre: "Arts",
-    desc: "Reflections on art and life by an American painter.",
+    desc: "A collection of reflections, advice, and philosophical musings by Robert Henri, an influential American painter. Henri discusses not only the technical aspects of creating art but also the deeper emotional and spiritual motivations behind the creative process, making this a cherished work for both artists and art lovers.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 21.99,
@@ -84,7 +84,7 @@ const books = [
     title: "The Rise and Fall of the Third Reich",
     author: "William L. Shirer",
     genre: "History",
-    desc: "A detailed history of the rise and fall of the Third Reich.",
+    desc: "A comprehensive and meticulously researched account of the Nazi regime, its rise to power, and its eventual downfall. Shirer’s work blends political history, military strategy, and personal accounts to provide a chilling examination of one of history’s most devastating periods.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 25.99,
@@ -94,7 +94,7 @@ const books = [
     title: "The Elements of Drawing",
     author: "John Ruskin",
     genre: "Arts",
-    desc: "A manual on drawing techniques.",
+    desc: "A practical guide to the art of drawing, written by the Victorian critic and art theorist John Ruskin. This book offers clear instructions on technique while also delving into the philosophical and emotional dimensions of art-making, making it an invaluable resource for aspiring artists.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
@@ -104,7 +104,7 @@ const books = [
     title: "The Guns of August",
     author: "Barbara W. Tuchman",
     genre: "History",
-    desc: "A narrative of the beginning of World War I.",
+    desc: "An in-depth narrative of the events leading up to World War I, focusing on the political and military decisions that led to the outbreak of the conflict. Tuchman’s gripping account details how miscommunication, miscalculations, and diplomacy failures ignited one of the most devastating wars in history.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 17.99,
@@ -114,7 +114,7 @@ const books = [
     title: "The Code Book",
     author: "Simon Singh",
     genre: "Mathematics",
-    desc: "The history of cryptography and its importance in mathematics.",
+    desc: "A fascinating exploration of the history of cryptography, 'The Code Book' delves into the secrets of encryption, from ancient times to the digital age. Singh also highlights the ongoing battle between codebreakers and spies, illustrating cryptography’s central role in shaping history and technology.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 22.99,
@@ -124,7 +124,7 @@ const books = [
     title: "The Civil War: A Narrative",
     author: "Shelby Foote",
     genre: "History",
-    desc: "A comprehensive narrative of the American Civil War.",
+    desc: "A sweeping and detailed narrative of the American Civil War, 'The Civil War' offers a comprehensive account of the conflict from the perspectives of both Union and Confederate forces. Foote’s masterful storytelling brings the war’s events, personalities, and political dynamics to life, making this a definitive work on the topic.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 27.99,
@@ -134,7 +134,7 @@ const books = [
     title: "The Art of Happiness",
     author: "Dalai Lama",
     genre: "Arts",
-    desc: "Reflections on the pursuit of happiness.",
+    desc: "A profound exploration of happiness, compassion, and emotional well-being by the Dalai Lama. In this book, he shares his insights into the mind’s ability to cultivate happiness and the importance of a peaceful, kind-hearted approach to life, drawing from both Buddhist philosophy and modern psychology.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
@@ -144,7 +144,7 @@ const books = [
     title: "The History of the Ancient World",
     author: "Susan Wise Bauer",
     genre: "History",
-    desc: "A narrative of ancient history from the beginning of civilization.",
+    desc: "An expansive and accessible account of the ancient civilizations that laid the foundation for the modern world. From the early Sumerians to the rise of empires in Rome and China, Bauer’s narrative provides a captivating overview of key events and figures in ancient history.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 23.99,
@@ -154,7 +154,7 @@ const books = [
     title: "The War of Art",
     author: "Steven Pressfield",
     genre: "Arts",
-    desc: "A guide on how to overcome creative blocks.",
+    desc: "A motivational guide to overcoming creative resistance, Pressfield’s book encourages artists, writers, and creators to push through the obstacles that impede their work. Drawing on personal experiences and philosophical insights, 'The War of Art' offers practical advice for anyone seeking to realize their creative potential.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
@@ -164,7 +164,7 @@ const books = [
     title: "The Man Who Knew Infinity",
     author: "Robert Kanigel",
     genre: "Mathematics",
-    desc: "The biography of Indian mathematician Srinivasa Ramanujan.",
+    desc: "A biography of the brilliant Indian mathematician Srinivasa Ramanujan, who defied the odds to make groundbreaking contributions to number theory. Kanigel chronicles Ramanujan’s rise from a humble background to his work with British mathematicians, offering a powerful story of genius and dedication.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
@@ -174,7 +174,7 @@ const books = [
     title: "The Lives of the Artists",
     author: "Giorgio Vasari",
     genre: "Arts",
-    desc: "Biographies of the great artists of the Renaissance.",
+    desc: "One of the first art historical texts, Vasari’s 'The Lives of the Artists' offers biographical sketches of the greatest Renaissance artists, including Leonardo da Vinci, Michelangelo, and Raphael. Vasari’s vivid portrayals of these iconic figures shape our understanding of Renaissance art and its cultural context.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 24.99,
@@ -184,7 +184,7 @@ const books = [
     title: "The Silk Roads: A New History of the World",
     author: "Peter Frankopan",
     genre: "History",
-    desc: "A new perspective on world history through the Silk Roads.",
+    desc: "A revolutionary reexamination of world history, Frankopan shifts the focus from Europe to the Silk Roads, the ancient trade routes that connected East and West. This book uncovers the often overlooked role of Central Asia in shaping global history, offering a fresh perspective on the interconnectedness of cultures and civilizations.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 26.99,
@@ -194,7 +194,7 @@ const books = [
     title: "The Letters of Vincent van Gogh",
     author: "Vincent van Gogh",
     genre: "Arts",
-    desc: "Personal letters from the famous Dutch painter.",
+    desc: "A collection of deeply personal letters written by the Dutch painter Vincent van Gogh to his brother Theo. These letters provide an intimate glimpse into van Gogh’s creative process, mental struggles, and his reflections on art, love, and life.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
@@ -204,7 +204,7 @@ const books = [
     title: "Sapiens: A Brief History of Humankind",
     author: "Yuval Noah Harari",
     genre: "History",
-    desc: "A narrative of human history from the Stone Age to the modern era.",
+    desc: "A sweeping history of humankind, from the earliest days of Homo sapiens to the modern age. Harari explores the cognitive revolution, the agricultural revolution, and the unifying forces of human culture, offering profound insights into how we became the dominant species on Earth and where we might be headed in the future.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 21.99,
@@ -214,7 +214,7 @@ const books = [
     title: "Thinking, Fast and Slow",
     author: "Daniel Kahneman",
     genre: "Philosophy",
-    desc: "An exploration of the two modes of human thinking: fast and slow.",
+    desc: "A groundbreaking exploration of how the human mind works, Kahneman distinguishes between two modes of thinking: fast, intuitive thought and slow, deliberate reasoning. Through examples from economics, psychology, and everyday life, he reveals the biases and errors that shape our decision-making and perception of the world.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
@@ -224,7 +224,7 @@ const books = [
     title: "1984",
     author: "George Orwell",
     genre: "Fiction",
-    desc: "A dystopia about a totalitarian future.",
+    desc: "A dystopian novel set in a totalitarian society ruled by Big Brother, where individual freedoms are eradicated and truth is manipulated. Orwell’s chilling depiction of a surveillance state serves as a powerful warning about the dangers of absolute power and the loss of personal liberties.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
@@ -234,7 +234,7 @@ const books = [
     title: "Brave New World",
     author: "Aldous Huxley",
     genre: "Fiction",
-    desc: "A dystopia about a futuristic society controlled by technology and conditioning.",
+    desc: "In a future society dominated by technology, consumerism, and genetic engineering, individualism is suppressed, and happiness is manufactured. Huxley’s novel critiques a world where people are conditioned for obedience and pleasure, exploring themes of freedom, conformity, and the consequences of technological advancement.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
@@ -244,7 +244,7 @@ const books = [
     title: "To Kill a Mockingbird",
     author: "Harper Lee",
     genre: "Fiction",
-    desc: "A story about racism and injustice in the southern United States.",
+    desc: "Set in the racially segregated American South during the 1930s, 'To Kill a Mockingbird' explores themes of racial injustice, moral growth, and the loss of innocence through the eyes of Scout Finch, a young girl whose father defends an innocent African American man accused of rape.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
@@ -254,7 +254,7 @@ const books = [
     title: "Moby-Dick",
     author: "Herman Melville",
     genre: "Fiction",
-    desc: "The saga of Captain Ahab and his obsession with the white whale.",
+    desc: "A sea-faring epic centered around Captain Ahab’s obsessive pursuit of the white whale, Moby Dick. Melville’s novel is a profound exploration of obsession, fate, and the unknown, filled with philosophical musings on existence and humanity’s relationship with nature.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 17.99,
@@ -264,7 +264,7 @@ const books = [
     title: "Crime and Punishment",
     author: "Fyodor Dostoevsky",
     genre: "Fiction",
-    desc: "The story of a young man who commits a murder and faces the moral consequences.",
+    desc: "A psychological masterpiece that delves into the moral dilemmas of a young man, Raskolnikov, who commits murder and grapples with guilt, punishment, and redemption. Dostoevsky’s novel explores themes of morality, free will, and the consequences of breaking societal laws.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
@@ -274,7 +274,7 @@ const books = [
     title: "Pride and Prejudice",
     author: "Jane Austen",
     genre: "Fiction",
-    desc: "A romance about the complexities of love and society.",
+    desc: "A timeless romance that explores themes of love, class, and social expectations in early 19th-century England. Austen’s witty and satirical novel follows Elizabeth Bennet as she navigates relationships, misunderstandings, and societal pressures, ultimately finding love on her own terms.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
@@ -284,7 +284,7 @@ const books = [
     title: "War and Peace",
     author: "Leo Tolstoy",
     genre: "Fiction",
-    desc: "An epic narrative about life in Russia during the Napoleonic Wars.",
+    desc: "A monumental work that spans several decades, 'War and Peace' explores the lives of Russian aristocrats during the Napoleonic Wars. Tolstoy examines the impact of war, personal choices, and societal changes on individuals, creating a rich narrative that encompasses history, philosophy, and human emotion.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
@@ -294,7 +294,7 @@ const books = [
     title: "The Catcher in the Rye",
     author: "J.D. Salinger",
     genre: "Fiction",
-    desc: "The story of a rebellious teenager in New York.",
+    desc: "A rebellious coming-of-age story that follows the troubled teenage protagonist, Holden Caulfield, as he navigates the challenges of adulthood, alienation, and depression. Salinger’s novel is a poignant exploration of adolescence and the search for identity in a world full of phoniness.",
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
