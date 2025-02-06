@@ -8,6 +8,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
+    quantity: 0,
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 3,
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 29.99,
+    quantity: 2,
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
+    quantity: 0,
   },
   {
     id: 5,
@@ -48,6 +52,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 24.99,
+    quantity: 1,
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 9.99,
+    quantity: 3,
   },
   {
     id: 7,
@@ -68,6 +74,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
+    quantity: 3,
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 21.99,
+    quantity: 2,
   },
   {
     id: 9,
@@ -88,6 +96,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 25.99,
+    quantity: 2,
   },
   {
     id: 10,
@@ -98,6 +107,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
+    quantity: 1,
   },
   {
     id: 11,
@@ -108,6 +118,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 17.99,
+    quantity: 4,
   },
   {
     id: 12,
@@ -118,6 +129,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 22.99,
+    quantity: 2,
   },
   {
     id: 13,
@@ -128,6 +140,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 27.99,
+    quantity: 0,
   },
   {
     id: 14,
@@ -138,6 +151,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
+    quantity: 3,
   },
   {
     id: 15,
@@ -148,6 +162,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 23.99,
+    quantity: 1,
   },
   {
     id: 16,
@@ -158,6 +173,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
+    quantity: 2,
   },
   {
     id: 17,
@@ -168,6 +184,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
+    quantity: 0,
   },
   {
     id: 18,
@@ -178,6 +195,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 24.99,
+    quantity: 3,
   },
   {
     id: 19,
@@ -188,6 +206,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 26.99,
+    quantity: 1,
   },
   {
     id: 20,
@@ -198,6 +217,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
+    quantity: 2,
   },
   {
     id: 21,
@@ -208,6 +228,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 21.99,
+    quantity: 2,
   },
   {
     id: 22,
@@ -218,6 +239,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 4,
   },
   {
     id: 23,
@@ -228,6 +250,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
+    quantity: 1,
   },
   {
     id: 24,
@@ -238,6 +261,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
+    quantity: 2,
   },
   {
     id: 25,
@@ -248,6 +272,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
+    quantity: 0,
   },
   {
     id: 26,
@@ -258,6 +283,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 17.99,
+    quantity: 4,
   },
   {
     id: 27,
@@ -268,6 +294,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
+    quantity: 2,
   },
   {
     id: 28,
@@ -278,6 +305,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 1,
   },
   {
     id: 29,
@@ -288,6 +316,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
+    quantity: 3,
   },
   {
     id: 30,
@@ -298,6 +327,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
+    quantity: 0,
   },
   {
     id: 31,
@@ -308,6 +338,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 22.99,
+    quantity: 2,
   },
   {
     id: 32,
@@ -318,6 +349,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
+    quantity: 2,
   },
   {
     id: 33,
@@ -328,6 +360,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 11.99,
+    quantity: 4,
   },
   {
     id: 34,
@@ -338,6 +371,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 1,
   },
   {
     id: 35,
@@ -348,6 +382,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
+    quantity: 0,
   },
   {
     id: 36,
@@ -358,6 +393,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
+    quantity: 1,
   },
   {
     id: 37,
@@ -368,6 +404,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
+    quantity: 3,
   },
   {
     id: 38,
@@ -378,6 +415,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 13.99,
+    quantity: 2,
   },
   {
     id: 39,
@@ -388,6 +426,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 1,
   },
   {
     id: 40,
@@ -398,6 +437,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
+    quantity: 0,
   },
   {
     id: 41,
@@ -408,6 +448,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 11.99,
+    quantity: 3,
   },
   {
     id: 42,
@@ -418,6 +459,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
+    quantity: 1,
   },
   {
     id: 43,
@@ -428,6 +470,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 1,
   },
   {
     id: 44,
@@ -438,6 +481,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 14.99,
+    quantity: 2,
   },
   {
     id: 45,
@@ -448,6 +492,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 19.99,
+    quantity: 3,
   },
   {
     id: 46,
@@ -458,6 +503,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 12.99,
+    quantity: 1,
   },
   {
     id: 47,
@@ -468,6 +514,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 18.99,
+    quantity: 0,
   },
   {
     id: 48,
@@ -478,6 +525,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 17.99,
+    quantity: 2,
   },
   {
     id: 49,
@@ -488,6 +536,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 15.99,
+    quantity: 2,
   },
   {
     id: 50,
@@ -498,6 +547,7 @@ const books = [
     cover:
       "https://www.mobileread.com/forums/attachment.php?attachmentid=111264&d=1378642555",
     price: 16.99,
+    quantity: 1,
   },
 ];
 
