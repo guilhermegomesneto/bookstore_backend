@@ -1,8 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const { books, users } = require("./src/data/data.js");
+const { books } = require("./src/data/data.js");
 
 const PORT = process.env.PORT || 3000;
 
@@ -18,33 +16,6 @@ function findBook(id) {
 
 app.get("/", (req, res) => {
   res.status(200).send("The Great Library API is running!");
-});
-
-app.post("/register", async (req, res) => {
-  const { username, password } = req.body;
-  const hashedPassword = await bcrypt.hash(password, 10);
-
-  const existingUser = users.find((user) => user.username === username);
-  if (existingUser) {
-    return res.status(400).json({ message: "This user already exists" });
-  }
-
-  users.push({ username, password: hashedPassword });
-  res.status(201).json({ message: "User registered successfully" });
-});
-
-app.post("/login", async (req, res) => {
-  const { username, password } = req.body;
-  const user = users.find((user) => user.username === username);
-  if (!user) return res.status(400).json({ error: "User not found" });
-
-  const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) return res.status(400).json({ error: "Password incorrect" });
-
-  const token = jwt.sign({ username: user.username }, "yourSecretKey", {
-    expiresIn: "1h",
-  });
-  res.status(200).json({ token });
 });
 
 app.get("/books", (req, res) => {
@@ -79,6 +50,7 @@ app.get("/search", (req, res) => {
     totalBooks,
   });
 });
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
