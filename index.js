@@ -39,7 +39,7 @@ app.post("/login", async (req, res) => {
   if (!user) return res.status(400).json({ error: "User not found" });
 
   const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) return res.status(400).json({ error: "Password incorrect" });
+  if (!isMatch) return res.status(401).json({ error: "Password incorrect" });
 
   const token = jwt.sign({ username: user.username }, "yourSecretKey", {
     expiresIn: "1h",
