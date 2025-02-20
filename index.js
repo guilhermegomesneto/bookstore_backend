@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("/register", async (req, res) => {
-  const { username, password } = req.body;
+  const { username, password, name, email } = req.body;
   const hashedPassword = await bcrypt.hash(password, 10);
 
   const existingUser = users.find((user) => user.username === username);
@@ -29,7 +29,7 @@ app.post("/register", async (req, res) => {
     return res.status(400).json({ message: "This user already exists" });
   }
 
-  users.push({ username, password: hashedPassword });
+  users.push({ username, password: hashedPassword, name, email });
   res.status(201).json({ message: "User registered successfully" });
 });
 
@@ -44,7 +44,14 @@ app.post("/login", async (req, res) => {
   const token = jwt.sign({ username: user.username }, "yourSecretKey", {
     expiresIn: "1h",
   });
-  res.status(200).json({ token });
+  res.status(200).json({
+    token,
+    user: {
+      name: user.name,
+      email: user.email,
+      username: user.username,
+    },
+  });
 });
 
 app.get("/books", (req, res) => {
